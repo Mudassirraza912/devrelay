@@ -1,0 +1,46 @@
+{
+  "name": "devrelay-cli",
+  "version": "1.0.0",
+  "description": "Universal Cross-Agent Session Bridge. Seamlessly handoff and resume in-flight coding sessions across Claude Code, Codex, Antigravity, and Cursor when rate limits hit.",
+  "main": "src/index.js",
+  "bin": {
+    "devrelay": "bin/devrelay.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/devrelay.js list",
+    "setup": "node bin/devrelay.js setup",
+    "test": "node bin/devrelay.js list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mudassirraza912/devrelay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mudassirraza912/devrelay/issues"
+  },
+  "homepage": "https://github.com/Mudassirraza912/devrelay#readme",
+  "keywords": [
+    "ai",
+    "ai-agents",
+    "claude-code",
+    "codex",
+    "antigravity",
+    "cursor",
+    "rate-limit",
+    "session-handoff",
+    "mcp",
+    "developer-tools",
+    "productivity"
+  ],
+  "author": "Mudassir Raza (https://github.com/Mudassirraza912)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

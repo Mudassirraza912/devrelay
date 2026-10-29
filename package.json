@@ -1,10 +1,11 @@
 {
   "name": "devrelay-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Universal Cross-Agent Session Bridge. Seamlessly handoff and resume in-flight coding sessions across Claude Code, Codex, Antigravity, and Cursor when rate limits hit.",
   "main": "src/index.js",
   "bin": {
-    "devrelay": "bin/devrelay.js"
+    "devrelay": "bin/devrelay.js",
+    "devrelay-cli": "bin/devrelay.js"
   },
   "files": [
     "bin",
